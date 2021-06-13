@@ -1,4 +1,4 @@
-import logo from './MATTVRTURTLE.png';
+import logo from './ruhro.jpg';
 import './App.css';
 
 function App() {
