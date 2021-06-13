@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://en.wikipedia.org/wiki/Autism"
+          href="https://en.wikipedia.org/wiki/Retardation"
           target="_blank"
           rel="noopener noreferrer"
         >
