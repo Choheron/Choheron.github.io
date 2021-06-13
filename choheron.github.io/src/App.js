@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/Autism"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          See why He is so Smelly!
         </a>
       </header>
     </div>
