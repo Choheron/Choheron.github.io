@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Matt <code>"Angelo"</code> Crouse is very stinky poopy and does not vibe.
+          Jayce <code>"Dumbass"</code> Buhner is very stinky poopy and does not like literally ANY game unless it is &gt;5 years old.
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          See why He is so Smelly!
+          See why He is so cynical!
         </a>
       </header>
     </div>
