@@ -1,5 +1,5 @@
 body {
-    background: cadetblue;
+    background-image: "%PUBLIC_URL%/images/backgroundMain.png";
 }
 
 .header {
