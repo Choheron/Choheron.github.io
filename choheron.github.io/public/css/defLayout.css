@@ -1,5 +1,6 @@
 body {
-    background-image: url("%PUBLIC_URL%/images/backgroundMain.png");
+    background-image: url("../images/backgroundMain.png");
+    background-size: auto;
 }
 
 .header {
