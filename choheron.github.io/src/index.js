@@ -140,7 +140,7 @@ function calculateWinner(squares) {
 }
 // ========================================
 
-ReactDOM.render(
-  <Game />,
-  document.getElementById('tiktaktoe')
-);
+// ReactDOM.render(
+//   <Game />,
+//   document.getElementById('tiktaktoe')
+// );
