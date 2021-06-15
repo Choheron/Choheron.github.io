@@ -1,7 +1,8 @@
 body {
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-color: rgb(216, 162, 162);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .header {
