@@ -1,5 +1,6 @@
 body {
-    background-color: darkolivegreen;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-size: cover;
 }
 
 .header {
