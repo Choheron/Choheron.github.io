@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "SocailMediaLinks";
+    src: url("../fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
 body {
-    background-color: rgb(216, 162, 162);
+    /* background-color: rgb(216, 162, 162); */
+    background-image: url("../images/backgroundMain.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -14,8 +20,8 @@ body {
 .linkBox {
     margin: auto;
     box-sizing: content-box;
-    background-color: rgba(122, 122, 122, 0.7);
-    box-shadow: 0 0 5px 10px rgba(122, 122, 122, 0.7);
+    background-color: rgba(122, 122, 122, 0.8);
+    box-shadow: 0 0 5px 10px rgba(122, 122, 122, 0.8);
     width: 20%;
     border-radius: 25px;
 }
@@ -29,5 +35,7 @@ body {
 .linkBlock {
     text-align: center;
     color: rgb(41, 34, 144);
-    font-family: sans-serif;
+
+    font-family: 'SocailMediaLinks';
+    font-size: 20px;
 }
