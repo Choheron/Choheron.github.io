@@ -11,8 +11,23 @@ body {
     font-family: sans-serif;
 }
 
+.linkBox {
+    margin: auto;
+    box-sizing: content-box;
+    background-color: rgba(122, 122, 122, 0.7);
+    box-shadow: 0 0 5px 10px rgba(122, 122, 122, 0.7);
+    width: 10%;
+    border-radius: 25px;
+}
+
+.linkHeader {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
 .linkBlock {
     text-align: center;
-    color: lightblue;
+    color: rgb(41, 34, 144);
     font-family: sans-serif;
 }
