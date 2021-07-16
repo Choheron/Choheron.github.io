@@ -3,6 +3,11 @@
     src: url("../fonts/ShareTechMono-Regular.ttf");
 }
 
+@font-face {
+    font-family: "BRFont";
+    src: url("../fonts/BLADRMF_.TTF");
+}
+
 body {
     /* background-color: rgb(216, 162, 162); */
     background-image: url("../images/backgroundMain.png");
@@ -14,7 +19,7 @@ body {
 .header {
     text-align: center;
     color: white;
-    font-family: sans-serif;
+    font-family: "BRFont";
     font-size: 40px;
 }
 
