@@ -65,3 +65,7 @@ body {
     filter: blur(10px);
     margin: -20px;
 }
+
+a:visited {
+    color: green;
+}
