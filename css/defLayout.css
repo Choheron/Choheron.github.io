@@ -42,7 +42,7 @@ body {
 
 .container {
     width: 30rem;
-    height: 20rem;
+    height: 10rem;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
     border-radius: 10px;
     position: relative;
@@ -68,13 +68,14 @@ body {
 
 a:link {
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(60, 117, 38);
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
-    text-decoration: underline;
+    color: rgb(52, 41, 204);
 }
