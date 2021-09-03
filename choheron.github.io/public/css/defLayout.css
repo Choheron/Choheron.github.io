@@ -100,8 +100,4 @@ a:hover {
 
 @media (max-width: 600px) {
 
-    a:link, a:visited {
-        color: fuchsia;
-    }
-
 }
