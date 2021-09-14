@@ -11,8 +11,6 @@
 body {
     margin: 0;
 
-    transition: 0.2s ease-in-out;
-
     background-image: url("../images/backgroundMain.png");
     background-repeat: no-repeat;
     background-size: cover;
