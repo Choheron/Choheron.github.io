@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "SubheaderText";
+    font-family: "SubjectHeaderText";
     src: url("../fonts/ShareTechMono-Regular.ttf");
 }
 
@@ -12,9 +12,12 @@ body {
     margin: 0;
 
     background-image: url("../images/backgroundMain.jpg");
+    backdrop-filter: blur(5px);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    height: 100vh;
 }
 
 .content {
@@ -38,8 +41,15 @@ body {
     margin: 0px;
 }
 
-.header p{
-    font-family: "SubheaderText";
+.header p {
+    font-family: "SubjectHeaderText";
     font-size: 20px;
     margin: 0px;
+}
+
+.sectionHeader {
+    font-family: "SubjectHeaderText";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
 }
