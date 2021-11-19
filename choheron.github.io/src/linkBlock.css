@@ -12,7 +12,7 @@
 }
 
 .container {
-    width: 30rem;
+    width: 35rem;
     height: 10rem;
     min-height: 100px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3); 
@@ -43,7 +43,7 @@ a {
     width: 45px;
     font-size: 45px;
     transition: color 0.2s ease-out;
-    transition: transform 0.2s ease-in-out;
+    transition: transiton 0.2s ease-in-out;
 }
 
 a:link, a:visited {
