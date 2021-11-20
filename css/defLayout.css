@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    height: 65vh;
+    height: 45vh;
     width: 100vw;
 
     display: flex;
@@ -52,4 +52,51 @@ body {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+.bubbleHolder {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.projectBubble {
+    background-color: rgba(195, 195, 195, 0.822);
+    width: 25rem;
+    height: 10rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(46, 46, 46, 0.301);
+    border-radius: 2rem;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.projectBubble:hover {
+    background-color: rgba(240, 240, 240, 0.822);
+    border-color: rgb(0, 0, 0);
+    transform: scale(1.1, 1.1);
+}
+
+.projectBubble img {
+    width: 20rem;
+    height: auto;
+}
+
+.projectBubble p {
+    font-family: "SubjectHeaderText";
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
