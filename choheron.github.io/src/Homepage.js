@@ -1,4 +1,6 @@
+import { Container } from "@mui/material";
 import React from "react";
+import BEVIProjectBubble from "./components/BEVIProjectBubble";
 import LinkBlock from "./components/Linkblock";
 import './css/defLayout.css';
 
@@ -6,20 +8,18 @@ export default function Homepage() {
     return (
         <div class="application">
             <div class="content">
-                <div class="header">
+                <div class="staticHeader">
                     <h1>Thomas Campbell</h1>
-                    <p>Software Engineer - Game Designer - Artist - Programmer</p>
+                    <p>Software Engineer - Game Designer - Artist - Programmer - Web Developer</p>
                 </div>
                 <LinkBlock />
-                <div class="sectionHeader">Projects</div>
-                <div class="bubbleHolder">
-                    <div class="projectBubble">
-                        <p>UNDER CONSTRUCTION</p>
-                    </div>
+                <div class="navHeader">Projects</div>
+                <Container class="menuContainer">
+                    <BEVIProjectBubble />
                     <div class="projectBubble">
                         <p>UNDER CONSTRUCTION PART 2</p>
                     </div>
-                </div>
+                </Container>
             </div>
         </div>
     );
