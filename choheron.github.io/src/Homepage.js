@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import React from "react";
 import BEVIProjectBubble from "./components/BEVIProjectBubble";
 import LinkBlock from "./components/Linkblock";
@@ -9,8 +9,8 @@ export default function Homepage() {
         <div class="application">
             <div class="content">
                 <div class="staticHeader">
-                    <h1>Thomas Campbell</h1>
-                    <p>Software Engineer - Game Designer - Artist - Programmer - Web Developer</p>
+                    <Typography variant="h1" component="h1">Thomas Campbell</Typography>
+                    <Typography variant="subtitle1" component="p">Software Engineer - Game Designer - Programmer - Web Developer - Artist</Typography>
                 </div>
                 <LinkBlock />
                 <div class="navHeader">Projects</div>
