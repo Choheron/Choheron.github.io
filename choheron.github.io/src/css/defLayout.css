@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
 
     display: flex;
@@ -37,14 +37,22 @@ body {
 
 .staticHeader h1 {
     font-family: "BRFont";
-    font-size: 80px;
-    margin: 0px;
+    font-size: 5rem;
+    margin-top: -1.1rem;
+    margin-bottom: -0.5rem;
+}
+
+.staticHeader .over {
+    font-family: "SubjectHeaderText";
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 .staticHeader p {
     font-family: "SubjectHeaderText";
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0px;
 }
 
