@@ -17,13 +17,13 @@ export default function Homepage() {
                     <Typography variant="subtitle1" component="p">Software Engineer - Game Designer - Programmer - Full Stack Developer - Artist</Typography>
                 </div>
                 <LinkBlock />
-                <div class="navHeader">Projects</div>
+                {/* <div class="navHeader">Projects</div>
                 <Container class="menuContainer">
                     <BEVIProjectBubble />
                     <div class="projectBubble">
                         <p>UNDER CONSTRUCTION PART 2</p>
                     </div>
-                </Container>
+                </Container> */}
             </div>
         </div>
     );
