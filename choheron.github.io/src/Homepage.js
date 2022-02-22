@@ -1,6 +1,7 @@
-import { Container, Typography } from "@mui/material";
+import { Container, Typography, Paper } from "@mui/material";
 import React, { useState } from "react";
 import BEVIProjectBubble from "./components/BEVIProjectBubble";
+import CodingGraph from "./components/CodingGraph";
 import LinkBlock from "./components/Linkblock";
 import './css/defLayout.css';
 
@@ -16,14 +17,9 @@ export default function Homepage() {
                     <Typography variant="h1" component="h1">Thomas Campbell</Typography>
                     <Typography variant="subtitle1" component="p">Software Engineer - Game Designer - Programmer - Full Stack Developer - Artist</Typography>
                 </div>
+                { /* Display links to relevant social medias and websites of mine */ }
                 <LinkBlock />
-                {/* <div class="navHeader">Projects</div>
-                <Container class="menuContainer">
-                    <BEVIProjectBubble />
-                    <div class="projectBubble">
-                        <p>UNDER CONSTRUCTION PART 2</p>
-                    </div>
-                </Container> */}
+                <CodingGraph />
             </div>
         </div>
     );

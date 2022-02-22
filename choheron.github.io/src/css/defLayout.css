@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "SubjectHeaderText";
+    font-family: "base text";
     src: url("../fonts/ShareTechMono-Regular.ttf");
 }
 
@@ -17,7 +17,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .content {
@@ -34,30 +34,27 @@ body {
     text-align: center;
     color: white;
 }
-
 .staticHeader h1 {
     font-family: "BRFont";
     font-size: 5rem;
     margin-top: -1.1rem;
     margin-bottom: -0.5rem;
 }
-
 .staticHeader .over {
-    font-family: "SubjectHeaderText";
+    font-family: "base text";
     text-align: left;
     font-size: 1.5rem;
     margin-left: 1rem;
 }
-
 .staticHeader p {
-    font-family: "SubjectHeaderText";
+    font-family: "base text";
     font-style: italic;
     font-size: 1.25rem;
     margin: 0px;
 }
 
 .navHeader {
-    font-family: "SubjectHeaderText";
+    font-family: "base text";
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 40px;
