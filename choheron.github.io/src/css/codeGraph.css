@@ -16,19 +16,48 @@
     width: 50%;
     border-radius: 3rem;
     font-family: "Slick";
+    padding: 1rem;
+    margin-top: 1rem;
 }
 .graphContainer .graphText {
     font-family: "Slick";
 }
-.graphContainer table {
+.graphContainer table { 
     width: 100%;
     text-align: center;
-    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0);
+    border-collapse: collapse; 
 }
 .graphContainer table th {
-    border-bottom: 1px solid rgb(143, 143, 143);
+    border-bottom: 1px solid rgb(44, 44, 44);
     height: 2rem;
+    text-align: right;
 }
 .graphContainer table td {
-    height: 3rem;
+    height: 3.5rem;
+    padding-bottom: 0.5rem;
+}
+.graphContainer table .headerCol{
+    text-align: right;
+}
+.graphContainer .experienceBar {
+    color: white;
+    background-color: rgb(72, 59, 104);
+    border-radius: 10px;
+    margin-left: 1rem;
+    width: auto;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    font-size: 0px;
+
+    transition: font-size 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+.graphContainer .experienceBar:hover {
+    color: white;
+    background-color: rgb(118, 97, 172);
+    font-size: 100%;
 }
