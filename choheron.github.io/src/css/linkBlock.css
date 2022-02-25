@@ -54,3 +54,67 @@ a:hover {
     transform: scale(1.6, 1.6);
     color: rgb(52, 41, 204);
 }
+
+/*
+ * =====================================================================================================================
+ * Styling for mobile (width == or below 500px) below!
+ */
+@media (max-width: 500px) {
+    .linkBlock {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    
+        text-align: center;
+    
+        font-size: 25px;
+    }
+    
+    .container {
+        width: 10rem;
+        height: 30rem;
+        min-height: 100px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3); 
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+        background: inherit;
+        overflow: hidden;
+        margin: 50px;
+    }
+    
+    .container:before {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.6);
+        filter: blur(10px);
+        margin: -20px;
+    }
+    
+    a {
+        height: 45px;
+        width: 45px;
+        font-size: 45px;
+    
+        transition: color 0.2s ease-out, transform 0.2s ease-in-out;
+    }
+    
+    a:link, a:visited {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    a:hover {
+        transform: scale(1.6, 1.6);
+        color: rgb(52, 41, 204);
+    }
+}

@@ -53,17 +53,56 @@ body {
     margin: 0px;
 }
 
-.navHeader {
-    font-family: "base text";
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin-bottom: 10px;
-}
+/*
+ * =====================================================================================================================
+ * Styling for mobile (width == or below 500px) below!
+ */
+ @media (max-width: 500px) {
+    body {
+        margin: 0;
 
-.menuContainer {
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
+        background-image: url("../images/backgroundMain.jpg");
+        backdrop-filter: blur(10px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .content {
+        min-height: 100vh;
+        width: 100vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .staticHeader {
+        text-align: center;
+        color: white;
+    }
+    .staticHeader h1 {
+        font-family: "BRFont";
+        font-size: 3rem;
+        margin-top: -0.5rem;
+        margin-bottom: -0.5rem;
+        text-align: center;
+    }
+    .staticHeader .over {
+        font-family: "base text";
+        text-align: center;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .staticHeader p {
+        font-family: "base text";
+        text-align: center;
+        font-style: italic;
+        font-size: 1rem;
+        margin: 0px;
+    }
 }

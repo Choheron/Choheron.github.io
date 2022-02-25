@@ -3,6 +3,10 @@
     src: url("../fonts/ShareTechMono-Regular.ttf");
 }
 
+.body {
+    width: 100%;
+}
+
 .masterContainer {
     text-align: center;
 }
@@ -60,4 +64,42 @@
     color: white;
     background-color: rgb(118, 97, 172);
     font-size: 100%;
+}
+
+/*
+ * =====================================================================================================================
+ * Styling for mobile (width == or below 500px) below!
+ */
+ @media (max-width: 500px) {
+    .body {
+        display: none;
+    }
+    .masterContainer .text {
+        display: none;
+    }
+    
+    .graphContainer {
+        display: none;
+    }
+    .graphContainer .graphText {
+        display: none;
+    }
+    .graphContainer table { 
+        display: none;
+    }
+    .graphContainer table th {
+        display: none;
+    }
+    .graphContainer table td {
+        display: none;
+    }
+    .graphContainer table .headerCol{
+        display: none;
+    }
+    .graphContainer table h5{
+        display: none;
+    }
+    .graphContainer .experienceBar {
+        display: none;
+    }
 }
