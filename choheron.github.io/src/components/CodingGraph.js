@@ -66,7 +66,7 @@ export default function CodingGraph() {
                                 <td className="headerCol"><Typography variant="h5" className="graphText">C#</Typography></td>
                                 <td>
                                     <Container className="experienceBar">
-                                        Scripting/Project Experience
+                                        Project Experience
                                     </Container>
                                 </td>
                                 <td></td>

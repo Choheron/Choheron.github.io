@@ -18,7 +18,6 @@ export default function Homepage() {
                     </div>
                     { /* Display links to relevant social medias and websites of mine */ }
                     <LinkBlock />
-
                 </div>
                 <CodingGraph />
             </div>
