@@ -37,12 +37,11 @@ export default function CodingGraph() {
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">Python</Typography></td>
-                                <td colSpan={2} >
+                                <td colSpan={3} >
                                     <Container className="experienceBar">
                                         4 Years of Experience - Multiple Projects
                                     </Container>
                                 </td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">Javascript</Typography></td>
@@ -51,7 +50,6 @@ export default function CodingGraph() {
                                         1 Year of Rigorous Experience through Employment and Coursework
                                     </Container>
                                 </td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">C</Typography></td>
@@ -60,7 +58,6 @@ export default function CodingGraph() {
                                         2.5 Years of Experience through Coursework
                                     </Container>
                                 </td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">C#</Typography></td>
@@ -69,8 +66,6 @@ export default function CodingGraph() {
                                         Project Experience
                                     </Container>
                                 </td>
-                                <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">C++</Typography></td>
@@ -79,8 +74,6 @@ export default function CodingGraph() {
                                         OpenGL, Visual Computing
                                     </Container>
                                 </td>
-                                <td></td>
-                                <td></td>
                             </tr>
                         </table>
                     </Container>
