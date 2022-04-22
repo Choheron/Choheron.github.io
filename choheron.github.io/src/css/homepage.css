@@ -153,4 +153,13 @@ body {
         font-size: 1rem;
         margin: 0px;
     }
+
+    .codePage {
+        display: none;
+    }
+
+    .floatingScroll {
+        visibility: hidden;
+        display: none;
+    }
 }
