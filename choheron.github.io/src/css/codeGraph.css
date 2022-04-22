@@ -13,6 +13,7 @@
 .masterContainer .text {
     color: white;
     font-family: "Slick";
+    margin-top: 1%;
 }
 
 .graphContainer {
@@ -20,8 +21,8 @@
     width: 100%;
     border-radius: 1.5rem;
     font-family: "Slick";
-    padding: 1rem;
-    margin-top: 1rem;
+    padding: 1%;
+    margin-top: 0.5%;
     
     display: flex;
     justify-content: center;
@@ -30,7 +31,7 @@
     font-family: "Slick";
 }
 .graphContainer table { 
-    width: 95%;
+    width: 99%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     border-collapse: collapse; 

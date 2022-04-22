@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/defLayout.css';
 import Homepage from './Homepage.js';
 
 // import * as serviceWorker from "./serviceWorker";

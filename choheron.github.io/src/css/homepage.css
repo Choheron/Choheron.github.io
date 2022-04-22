@@ -8,6 +8,10 @@
     src: url("../fonts/BLADRMF_.TTF");
 }
 
+@keyframes upDown {
+    to { transform: translateY(-20%);}
+}
+
 .application {
     scroll-behavior: smooth;
 }
@@ -59,12 +63,36 @@ body {
     margin: 0px;
 }
 
+.floatingScroll {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: -8vh;
+    padding-bottom: 8vh;
+
+    font-family: "base text";
+    color: white;
+
+    animation: 1.5s ease-in-out 1200ms infinite alternate none running upDown;
+}
+
 .landing {
-    height: 50vh;
+    height: 100vh;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.codePage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /*
