@@ -9,7 +9,7 @@
 }
 
 @keyframes upDown {
-    to { transform: translateY(-20%);}
+    to { transform: translateY(-4vh);}
 }
 
 .application {
