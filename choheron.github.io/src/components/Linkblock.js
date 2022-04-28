@@ -1,7 +1,6 @@
 import React from "react";
 import '../css/linkBlock.css';
 
-// <!-- <a href="https://www.instagram.com/thomas_.campbell/" target="_blank" rel="noreferrer noopener" title="Instagram"><i className='fab fa-instagram'></i></a> COMMENTED OUT UNTIL FUTURE --->
 export default function LinkBlock() {
     return (
         <div className="container">
