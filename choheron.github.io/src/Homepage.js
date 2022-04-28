@@ -8,6 +8,32 @@ import './css/homepage.css';
 
 // 1.5s ease-in-out 1200ms infinite alternate none running upDown
 export default function Homepage() {
+    // Keep track of scroll position
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const [floatOpacity, setFloatOpacity] = useState(100);
+
+    // Scroll handler callback
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+        
+        let opacity = 100 - (100 * position/window.innerHeight);
+        if(opacity < 0) {
+            opacity = 0;
+        }
+        setFloatOpacity(opacity);
+    };
+
+    // Add scrollbar event listener with removal on return as cleanup
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    // Master return statement
     return (
         <div className="application">
             <div className="content">
@@ -20,7 +46,7 @@ export default function Homepage() {
                     { /* Display links to relevant social medias and websites of mine */ }
                     <LinkBlock />
                 </div>
-                <Container className="floatingScroll">
+                <Container className="floatingScroll" style={{ opacity: floatOpacity + "%" }}>
                     <h2>Scroll to see more!</h2>
                     <KeyboardArrowDownRoundedIcon fontSize="medium" />
                 </Container>

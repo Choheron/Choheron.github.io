@@ -10,7 +10,7 @@ export default function LinkBlock() {
                 <a href="https://github.com/Choheron" target="_blank" rel="noreferrer noopener" title="GitHub"><i className='fab fa-github'></i></a>
                 <a href="https://choheron.artstation.com/" target="_blank" rel="noreferrer noopener" title="ArtStation"><i className='fab fa-artstation'></i></a>
                 <a href="./data/Thomas_Campbell_Resume.pdf" target="_blank" rel="noreferrer noopener" title="Resume - Updated Jan 2022"><i className="fas fa-file"></i></a>
-                <a href="mailto: trc527@gmail.com&subject = Portfolio Contact - [NAME]" target="_blank" rel="noreferrer noopener" title="Email"><i className='fa fa-envelope'></i></a>
+                <a href="mailto:trc527@gmail.com" target="_blank" rel="noreferrer noopener" title="Email"><i className='fa fa-envelope'></i></a>
             </div>
         </div>
     )

@@ -45,11 +45,14 @@ a {
     transition: color 0.2s ease-out, transform 0.2s ease-in-out;
 }
 
-a:link, a:visited {
+a:link {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
+a:visited {
+    text-decoration: none;
+    color: #2c0e47;
+}
 a:hover {
     transform: scale(1.6, 1.6);
     color: rgb(52, 41, 204);
