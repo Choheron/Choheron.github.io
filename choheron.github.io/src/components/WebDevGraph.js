@@ -51,7 +51,7 @@ export default function WebDevGraph() {
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">CSS</Typography></td>
-                                <td colSpan={3} >
+                                <td colSpan={2} >
                                     <Container className="experienceBar">
                                         2 Years of Experience
                                     </Container>
