@@ -8,7 +8,7 @@ export default function WebDevGraph() {
     return (
         <div className="body">
             <Box className="masterContainer">
-                <Typography variant="h4" className="text"><i>Web Development Experience</i></Typography>
+                <Typography variant="h4" className="text">Web Development Experience</Typography>
                 <Grow 
                     in={true}
                     {... (true ? { timeout: 1000 } : {})}   

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: "Slick";
     src: url("../fonts/ShareTechMono-Regular.ttf");
@@ -12,7 +14,7 @@
 }
 .masterContainer .text {
     color: white;
-    font-family: "Slick";
+    font-family: "Bebas Neue";
     margin-top: 1%;
 }
 
