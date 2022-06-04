@@ -8,7 +8,7 @@ export default function CodingGraph() {
     return (
         <div className="body">
             <Box className="masterContainer">
-                <Typography variant="h4" className="text">Code Experience</Typography>
+                <Typography variant="h3" className="text">Code Experience</Typography>
                 <Grow 
                     in={true}
                     {... (true ? { timeout: 1000 } : {})}   

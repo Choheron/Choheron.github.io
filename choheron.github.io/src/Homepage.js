@@ -4,6 +4,7 @@ import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownR
 import CodingGraph from "./components/CodingGraph";
 import WebDevGraph from "./components/WebDevGraph"
 import LinkBlock from "./components/Linkblock";
+import ProjectTray from "./components/ProjectTray";
 import './css/homepage.css';
 
 // 1.5s ease-in-out 1200ms infinite alternate none running upDown
@@ -54,6 +55,10 @@ export default function Homepage() {
                     <CodingGraph />
                     <WebDevGraph />
                 </div>
+                <div className="projectPage">
+                    <ProjectTray />
+                </div>
+                <br />
             </div>
         </div>
     );

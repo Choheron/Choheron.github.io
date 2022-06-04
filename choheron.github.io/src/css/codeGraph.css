@@ -72,6 +72,19 @@
     font-size: 100%;
 }
 
+.flexDiv {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectText {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /*
  * =====================================================================================================================
  * Styling for mobile (width == or below 500px) below!

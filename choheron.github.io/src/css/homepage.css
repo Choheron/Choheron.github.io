@@ -8,6 +8,11 @@
     src: url("../fonts/BLADRMF_.TTF");
 }
 
+@font-face {
+    font-family: "Slick";
+    src: url("../fonts/ShareTechMono-Regular.ttf");
+}
+
 @keyframes upDown {
     to { transform: translateY(-4vh);}
 }
@@ -92,6 +97,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.projectPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    color: black;
 }
 
 /*

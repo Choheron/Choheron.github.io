@@ -37,23 +37,22 @@
     margin: -20px;
 }
 
-a {
+.container a {
     height: 45px;
     width: 45px;
     font-size: 45px;
 
     transition: color 0.2s ease-out, transform 0.2s ease-in-out;
 }
-
-a:link {
+.container a:link {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-a:visited {
+.container a:visited {
     text-decoration: none;
     color: #2c0e47;
 }
-a:hover {
+.container a:hover {
     transform: scale(1.6, 1.6);
     color: rgb(52, 41, 204);
 }
