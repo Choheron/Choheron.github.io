@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Paper, Slide, Grow } from "@mui/material";
+import { Box, Container, Typography, Grow } from "@mui/material";
 import React from "react";
 import '../css/codeGraph.css';
 
@@ -35,7 +35,7 @@ export default function WebDevGraph() {
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">React JS</Typography></td>
-                                <td colSpan={5} >
+                                <td colSpan={4} >
                                     <Container className="experienceBar">
                                         1 Year of Rigorous Experience through Employment, Coursework, and Personal Projects
                                     </Container>
@@ -43,7 +43,7 @@ export default function WebDevGraph() {
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">HTML</Typography></td>
-                                <td colSpan={4} >
+                                <td colSpan={3} >
                                     <Container className="experienceBar">
                                         2 Years of Experience, Coursework, Personal Projects
                                     </Container>
@@ -51,7 +51,7 @@ export default function WebDevGraph() {
                             </tr>
                             <tr>
                                 <td className="headerCol"><Typography variant="h5" className="graphText">CSS</Typography></td>
-                                <td colSpan={2} >
+                                <td colSpan={3} >
                                     <Container className="experienceBar">
                                         2 Years of Experience
                                     </Container>

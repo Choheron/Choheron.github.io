@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Paper, Slide, Grow } from "@mui/material";
+import { Box, Container, Typography, Grow } from "@mui/material";
 import React from "react";
 import '../css/codeGraph.css';
 

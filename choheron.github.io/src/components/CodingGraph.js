@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Paper, Slide, Grow } from "@mui/material";
+import { Box, Container, Typography, Grow } from "@mui/material";
 import React from "react";
 import '../css/codeGraph.css';
 
@@ -37,7 +37,7 @@ export default function CodingGraph() {
                                 <td className="headerCol"><Typography variant="h5" className="graphText">Java</Typography></td>
                                 <td colSpan={5} >
                                     <Container className="experienceBar">
-                                        5 Years of Regular Coursework and Experience
+                                        6 Years of Regular Coursework and Experience
                                     </Container>
                                 </td>
                             </tr>
@@ -45,7 +45,7 @@ export default function CodingGraph() {
                                 <td className="headerCol"><Typography variant="h5" className="graphText">Python</Typography></td>
                                 <td colSpan={5} >
                                     <Container className="experienceBar">
-                                        4 Years of Experience - Multiple Projects
+                                        5 Years of Experience through Projects and Employment
                                     </Container>
                                 </td>
                             </tr>
@@ -53,7 +53,7 @@ export default function CodingGraph() {
                                 <td className="headerCol"><Typography variant="h5" className="graphText">Javascript</Typography></td>
                                 <td colSpan={4} >
                                     <Container className="experienceBar">
-                                        1 Year of Rigorous Experience through Employment and Coursework
+                                        2 Year of Experience through Employment and Coursework
                                     </Container>
                                 </td>
                             </tr>
@@ -62,6 +62,14 @@ export default function CodingGraph() {
                                 <td colSpan={3}>
                                     <Container className="experienceBar">
                                         2.5 Years of Experience through Coursework
+                                    </Container>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="headerCol"><Typography variant="h5" className="graphText">C++</Typography></td>
+                                <td colSpan={3}>
+                                    <Container className="experienceBar">
+                                        Extensive Classwork, Visual Computing, OpenGL
                                     </Container>
                                 </td>
                             </tr>
@@ -78,14 +86,6 @@ export default function CodingGraph() {
                                 <td>
                                     <Container className="experienceBar">
                                         Project Experience
-                                    </Container>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className="headerCol"><Typography variant="h5" className="graphText">C++</Typography></td>
-                                <td>
-                                    <Container className="experienceBar">
-                                        OpenGL, Visual Computing
                                     </Container>
                                 </td>
                             </tr>
