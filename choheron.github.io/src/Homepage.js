@@ -46,7 +46,7 @@ export default function Homepage() {
                             <Typography variant="h1" component="h1">Thomas Campbell</Typography>
                         </Grow>
                         <Grow in={true} {... (true ? { timeout: 3000 } : {})} >
-                            <Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Developer - Software Engineer - Game Developer - Artist</Typography>
+                            <Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Developer - Software Engineer - Game Developer</Typography>
                         </Grow>
                     </div>
                     { /* Display links to relevant social medias and websites of mine */ }
