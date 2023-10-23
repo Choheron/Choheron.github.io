@@ -19,8 +19,8 @@ export default function ProjectTray() {
                             <a href="https://www.thiswebsitedoesnothing.com/"><p className="projectText"><u>thiswebsitedoesnothing.com</u></p></a>
                         </div>
 												<div className="flexDiv">
-                            <p className="projectText">WTH is that?</p>
-                            <a href="http://trc-aws-solutions-architect-cert-testing-static-site.s3-website-us-east-1.amazonaws.com/"><p className="projectText"><u>thiswebsitedoesnothing.com</u></p></a>
+                            <p className="projectText">"WTH is that?":</p>
+                            <a href="http://trc-aws-solutions-architect-cert-testing-static-site.s3-website-us-east-1.amazonaws.com/"><p className="projectText"><u>WTH is that?</u></p></a>
                         </div>
                     </Container>
                 </Grow>
