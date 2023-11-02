@@ -9,32 +9,6 @@ import './css/homepage.css';
 
 // 1.5s ease-in-out 1200ms infinite alternate none running upDown
 export default function Homepage() {
-    // Keep track of scroll position
-    // eslint-disable-next-line
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const [floatOpacity, setFloatOpacity] = useState(100);
-
-    // Scroll handler callback
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        setScrollPosition(position);
-        
-        let opacity = 100 - (100 * position/window.innerHeight);
-        if(opacity < 0) {
-            opacity = 0;
-        }
-        setFloatOpacity(opacity);
-    };
-
-    // Add scrollbar event listener with removal on return as cleanup
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll, { passive: true });
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
     // Master return statement
     return (
         <div className="application">
@@ -46,21 +20,15 @@ export default function Homepage() {
                             <Typography variant="h1" component="h1">Thomas Campbell</Typography>
                         </Grow>
                         <Grow in={true} {... (true ? { timeout: 3000 } : {})} >
-                            <Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Developer - Software Engineer - Game Developer - Homelab Enthusiast</Typography>
+                            <Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Developer - Software Engineer - Homelab Enthusiast</Typography>
                         </Grow>
                     </div>
                     { /* Display links to relevant social medias and websites of mine */ }
                     <LinkBlock />
                 </div>
-                <Container className="floatingScroll" style={{ opacity: floatOpacity + "%" }}>
-                    <h2>Scroll to see more!</h2>
-                    <KeyboardArrowDownRoundedIcon fontSize="medium" />
-                </Container>
-                <div className="codePage">
-                    <CodingGraph />
+                <div className="pageBlock">
                     <WebDevGraph />
-                </div>
-                <div className="projectPage">
+										<CodingGraph />
                     <ProjectTray />
                 </div>
                 <br />

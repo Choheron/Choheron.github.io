@@ -6,11 +6,13 @@
 }
 
 .body {
-    width: 100%;
+	flex-basis: 30%;
 }
 
 .masterContainer {
     text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
 }
 .masterContainer .text {
     color: white;
