@@ -15,7 +15,7 @@ export default function ProjectTray() {
                 >
                     <Container className="graphContainer" ref={containerRef}>
                         <div className="flexDiv">
-                            <p className="projectText">THE WEBSITE THAT DOES NOTHING:</p>
+                            <p className="projectText">THIS WEBSITE DOES NOTHING:</p>
                             <a href="https://www.thiswebsitedoesnothing.com/"><p className="projectText"><u>thiswebsitedoesnothing.com</u></p></a>
                         </div>
 												<div className="flexDiv">
