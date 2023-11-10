@@ -141,7 +141,7 @@
  * =====================================================================================================================
  * Styling for mobile (width == or below 500px) below!
  */
-@media (max-width: 680px) {
+@media (max-width: 800px) {
 	.body {
 		display: none;
 	}
