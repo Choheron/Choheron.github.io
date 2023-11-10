@@ -12,7 +12,7 @@ export default function WorkExperienceBubble(props) {
 				<Typography variant="h3" className="text">Work Experience</Typography>
 				<Grow
 					in={true}
-					{... (true ? { timeout: 1000 } : {})}
+					{... (true ? { timeout: parseInt(props.fadeinTimeout) } : {})}
 				>
 					<Container className="graphContainer" ref={containerRef}>
 						<JobCard
@@ -30,7 +30,7 @@ export default function WorkExperienceBubble(props) {
 							company="INADEV"
 							jobDescription="Deveoped a deduplication script using Python, utilizing libraries such as numpy and recordlinkage. Worked to optimize algorithms and adapt to changing project requirements. 
 							  Trained in DevOps to company standards in Terraform, AWS, Docker, Kubernetes, etc. to prepare for a transition to a full time DevOps Engineer."
-							skillsList="DevOps, Terraform, AWS, Docker, Python, Data Engineering, Full Stack Web Development"
+							skillsList="DevOps, Terraform, AWS, Docker, Python, Data Engineering, REST APIs, Full Stack Web Development"
 						/>
 						<JobCard
 							jobTitle="Undergraduate Research Assistant"

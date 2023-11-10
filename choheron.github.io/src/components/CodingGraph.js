@@ -2,7 +2,7 @@ import { Box, Container, Typography, Grow } from "@mui/material";
 import React from "react";
 import '../css/elementBubble.css';
 
-export default function CodingGraph() {
+export default function CodingGraph(props) {
 	const containerRef = React.useRef(null);
 
 	return (
@@ -11,7 +11,7 @@ export default function CodingGraph() {
 				<Typography variant="h3" className="text">Code Experience</Typography>
 				<Grow
 					in={true}
-					{... (true ? { timeout: 1000 } : {})}
+					{... (true ? { timeout: parseInt(props.fadeinTimeout) } : {})}
 				>
 					<Container className="graphContainer" ref={containerRef}>
 						<table>

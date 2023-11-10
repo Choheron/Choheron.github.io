@@ -2,7 +2,7 @@ import { Box, Container, Typography, Grow } from "@mui/material";
 import React from "react";
 import '../css/elementBubble.css';
 
-export default function ProjectTray() {
+export default function ProjectTray(props) {
 	const containerRef = React.useRef(null);
 
 	return (
@@ -11,7 +11,7 @@ export default function ProjectTray() {
 				<Typography variant="h3" className="text">Side Projects</Typography>
 				<Grow
 					in={true}
-					{... (true ? { timeout: 1000 } : {})}
+					{... (true ? { timeout: parseInt(props.fadeinTimeout) } : {})}
 				>
 					<div className="graphContainer" ref={containerRef}>
 						<div className="flexDiv">

@@ -1,8 +1,6 @@
 import { Container, Typography, Grow } from "@mui/material";
 import React, { useState, useEffect } from "react";
-import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 import CodingGraph from "./components/CodingGraph";
-import WebDevGraph from "./components/WebDevGraph"
 import LinkBlock from "./components/Linkblock";
 import ProjectTray from "./components/ProjectTray";
 import WorkExperienceBubble from "./components/WorkExperienceBubble";
@@ -20,7 +18,7 @@ export default function Homepage() {
 						<Grow in={true} {... (true ? { timeout: 1500 } : {})} >
 							<Typography variant="h1" component="h1">Thomas Campbell</Typography>
 						</Grow>
-						<Grow in={true} {... (true ? { timeout: 3000 } : {})} >
+						<Grow in={true} {... (true ? { timeout: 2000 } : {})} >
 							<Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Developer - Software Engineer - Homelab Enthusiast</Typography>
 						</Grow>
 					</div>
@@ -28,10 +26,15 @@ export default function Homepage() {
 					<LinkBlock />
 				</div>
 				<div className="pageBlock">
-					<WorkExperienceBubble/>
-					{/* <WebDevGraph /> */}
-					<CodingGraph />
-					<ProjectTray />
+					<WorkExperienceBubble
+						fadeinTimeout='3000'
+					/>
+					<CodingGraph 
+						fadeinTimeout='3500'
+					/>
+					<ProjectTray 
+						fadeinTimeout='4000'
+					/>
 				</div>
 				<br />
 			</div>
