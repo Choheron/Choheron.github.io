@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+	font-family: "Slick";
+	src: url("../fonts/ShareTechMono-Regular.ttf");
+}
+
+.flexDiv {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.descDiv {
+	width: 100%;
+}
+.descDiv .header {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	border-bottom: 2px solid black;
+}
+.descDiv .header h2,h4 {
+	margin-bottom: 0px;
+	margin-left: 0.2rem;
+	margin-right: 1rem;
+}
+.descDiv .subHeader h4 {
+	text-align: left;
+
+	margin-top: 2px;
+	margin-left: 0.2rem;
+	margin-right: 1rem;
+}
+.descDiv .description {
+	text-align: left;
+
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}
+.descDiv .description p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.descDiv .flexDiv {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.projectText {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
