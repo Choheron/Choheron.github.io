@@ -6,7 +6,7 @@ export default function JobCard(props) {
 
 	return (
 		<div className="body">
-			<div className="experienceDiv">
+			<div className="jobDescDiv">
 				<div className="header">
 					<h2>{ props.jobTitle }</h2>
 					<h4><i>{ props.jobDuration }</i></h4>
