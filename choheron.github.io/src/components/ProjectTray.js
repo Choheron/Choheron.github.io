@@ -15,12 +15,8 @@ export default function ProjectTray(props) {
 				>
 					<div className="graphContainer" ref={containerRef}>
 						<div className="flexDiv">
-							<p className="projectText">THIS WEBSITE DOES NOTHING:</p>
 							<a href="https://www.thiswebsitedoesnothing.com/"><p className="projectText"><u>thiswebsitedoesnothing.com</u></p></a>
-						</div>
-						<div className="flexDiv">
-							<p className="projectText">"WTH is that?":</p>
-							<a href="http://trc-aws-solutions-architect-cert-testing-static-site.s3-website-us-east-1.amazonaws.com/"><p className="projectText"><u>WTH is that?</u></p></a>
+							<a href="http://trc-aws-solutions-architect-cert-testing-static-site.s3-website-us-east-1.amazonaws.com/"><p className="projectText"><u>What is that?</u></p></a>
 						</div>
 					</div>
 				</Grow>

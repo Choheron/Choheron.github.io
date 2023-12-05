@@ -86,7 +86,16 @@
 	width: 100%;
 
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
+}
+.flexDiv .projectText {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .experienceDiv {
