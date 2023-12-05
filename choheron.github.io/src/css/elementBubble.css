@@ -6,7 +6,7 @@
 }
 
 .body {
-	flex-basis: 30%;
+	flex-basis: 40%;
 }
 
 .masterContainer {
@@ -14,6 +14,7 @@
 	margin-right: 2%;
 
 	transition: transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+	margin-bottom: 1rem;
 }
 .masterContainer .text {
 	text-align: center;
@@ -57,6 +58,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .jobDescDiv {
@@ -109,46 +112,31 @@
 
 /*
  * =====================================================================================================================
- * Styling for mobile (width == or below 500px) below!
+ * Styling for mobile (width == or below 800px) below!
  */
-@media (max-width: 800px) {
-	.body {
-		display: none;
-	}
-
+@media only screen and (max-width: 800px) {
 	.masterContainer .text {
-		display: none;
+		text-shadow:
+			-1px -1px 0 #000,  
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+	.masterContainer:hover {
+		transform: none !important;
 	}
 
-	.graphContainer {
-		display: none;
+	.flexDiv {
+		width: 100%;
+	
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
-
-	.graphContainer .graphText {
-		display: none;
-	}
-
-	.graphContainer table {
-		display: none;
-	}
-
-	.graphContainer table th {
-		display: none;
-	}
-
-	.graphContainer table td {
-		display: none;
-	}
-
-	.graphContainer table .headerCol {
-		display: none;
-	}
-
-	.graphContainer table h5 {
-		display: none;
-	}
-
-	.graphContainer .experienceBar {
-		display: none;
+	.flexDiv .projectText {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 }

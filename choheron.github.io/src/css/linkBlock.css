@@ -10,7 +10,7 @@
     font-size: 25px;
 }
 
-.container {
+.linkBlockWrapper .container {
     width: 30rem;
     height: 10rem;
     min-height: 100px;
@@ -23,7 +23,7 @@
     margin: 50px;
 }
 
-.container:before {
+.linkBlockWrapper .container:before {
     content: "";
     position: absolute;
     background: inherit;
@@ -37,22 +37,22 @@
     margin: -20px;
 }
 
-.container a {
+.linkBlockWrapper .container a {
     height: 45px;
     width: 45px;
     font-size: 45px;
 
     transition: color 0.2s ease-out, transform 0.2s ease-in-out;
 }
-.container a:link {
+.linkBlockWrapper .container a:link {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.container a:visited {
+.linkBlockWrapper .container a:visited {
     text-decoration: none;
     color: #2c0e47;
 }
-.container a:hover {
+.linkBlockWrapper .container a:hover {
     transform: scale(1.6, 1.6);
     color: rgb(52, 41, 204);
 }
@@ -75,7 +75,7 @@
         font-size: 25px;
     }
     
-    .container {
+    .linkBlockWrapper .container {
         width: 10rem;
         height: 30rem;
         min-height: 100px;
@@ -88,7 +88,7 @@
         margin: 50px;
     }
     
-    .container:before {
+    .linkBlockWrapper .container:before {
         content: "";
         position: absolute;
         background: inherit;
@@ -102,7 +102,7 @@
         margin: -10px;
     }
     
-    a {
+    .linkBlockWrapper a {
         height: 45px;
         width: 45px;
         font-size: 45px;
@@ -110,12 +110,12 @@
         transition: color 0.2s ease-out, transform 0.2s ease-in-out;
     }
     
-    a:link, a:visited {
+    .linkBlockWrapper a:link, a:visited {
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
     
-    a:hover {
+    .linkBlockWrapper a:hover {
         transform: scale(1.6, 1.6);
         color: rgb(52, 41, 204);
     }

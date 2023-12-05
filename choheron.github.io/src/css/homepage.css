@@ -83,6 +83,7 @@ body {
 	margin-right: 2%;
 
   display: flex;
+	flex-wrap: wrap;
   flex-direction: row;
 	justify-content: space-evenly;
 }
@@ -91,7 +92,7 @@ body {
  * =====================================================================================================================
  * Styling for mobile (width == or below 500px) below!
  */
- @media (max-width: 800px) {
+@media (max-width: 800px) {
     body {
         margin: 0;
 
@@ -143,14 +144,15 @@ body {
         font-style: italic;
         font-size: 1rem;
         margin: 0px;
-    }
-
-    .codePage {
-        display: none;
-    }
-
-    .floatingScroll {
-        visibility: hidden;
-        display: none;
-    }
+		}
+		.pageBlock {
+			width: 100%;
+			margin-left: 2%;
+			margin-right: 2%;
+		
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
 }
