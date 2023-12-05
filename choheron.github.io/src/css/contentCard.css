@@ -5,17 +5,17 @@
 	src: url("../fonts/ShareTechMono-Regular.ttf");
 }
 
-.flexDiv {
+.contentCardWrapper .flexDiv {
 	width: 100%;
 
 	display: flex;
 	justify-content: space-between;
 }
 
-.descDiv {
+.contentCardWrapper .descDiv {
 	width: 100%;
 }
-.descDiv .header {
+.contentCardWrapper .descDiv .header {
 	width: 100%;
 
 	display: flex;
@@ -24,29 +24,29 @@
 
 	border-bottom: 2px solid black;
 }
-.descDiv .header h2,h4 {
+.contentCardWrapper .descDiv .header h2,h4 {
 	margin-bottom: 0px;
 	margin-left: 0.2rem;
 	margin-right: 1rem;
 }
-.descDiv .subHeader h4 {
+.contentCardWrapper .descDiv .subHeader h4 {
 	text-align: left;
 
 	margin-top: 2px;
 	margin-left: 0.2rem;
 	margin-right: 1rem;
 }
-.descDiv .description {
+.contentCardWrapper .descDiv .description {
 	text-align: left;
 
 	margin-left: 0.1rem;
 	margin-right: 0.1rem;
 }
-.descDiv .description p {
+.contentCardWrapper .descDiv .description p {
 	margin-top: 0px;
 	margin-bottom: 5px;
 }
-.descDiv .flexDiv {
+.contentCardWrapper .descDiv .flexDiv {
 	width: 100%;
 
 	display: flex;
@@ -54,7 +54,7 @@
 	align-items: flex-end;
 }
 
-.projectText {
+.contentCardWrapper .projectText {
 	font-size: 1.5rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
