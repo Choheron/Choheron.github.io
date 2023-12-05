@@ -42,45 +42,6 @@
 .graphContainer .graphText {
 	font-family: "Slick";
 }
-.graphContainer table {
-	width: 99%;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0);
-	border-collapse: collapse;
-}
-.graphContainer table th {
-	border-bottom: 1px solid rgb(44, 44, 44);
-	height: 2rem;
-	text-align: right;
-}
-.graphContainer table td {
-	height: 3.5rem;
-	padding-bottom: 0.5rem;
-}
-.graphContainer table .headerCol {
-	text-align: right;
-}
-.graphContainer .experienceBar {
-	color: white;
-	background-color: rgb(72, 59, 104);
-	border-radius: 10px;
-	margin-left: 1rem;
-	width: auto;
-	height: 90%;
-
-	display: flex;
-	align-items: center;
-	justify-content: right;
-	text-align: right;
-	font-size: 0px;
-
-	transition: font-size 0.1s ease-in-out, background-color 0.1s ease-in-out;
-}
-.graphContainer .experienceBar:hover {
-	color: white;
-	background-color: rgb(118, 97, 172);
-	font-size: 100%;
-}
 
 .flexDiv {
 	width: 100%;
@@ -98,10 +59,10 @@
 	align-items: center;
 }
 
-.experienceDiv {
+.jobDescDiv {
 	width: 100%;
 }
-.experienceDiv .header {
+.jobDescDiv .header {
 	width: 100%;
 
 	display: flex;
@@ -110,29 +71,29 @@
 
 	border-bottom: 2px solid black;
 }
-.experienceDiv .header h2,h4 {
+.jobDescDiv .header h2,h4 {
 	margin-bottom: 0px;
 	margin-left: 0.2rem;
 	margin-right: 1rem;
 }
-.experienceDiv .subHeader h4 {
+.jobDescDiv .subHeader h4 {
 	text-align: left;
 
 	margin-top: 2px;
 	margin-left: 0.2rem;
 	margin-right: 1rem;
 }
-.experienceDiv .description {
+.jobDescDiv .description {
 	text-align: left;
 
 	margin-left: 0.1rem;
 	margin-right: 0.1rem;
 }
-.experienceDiv .description p {
+.jobDescDiv .description p {
 	margin-top: 0px;
 	margin-bottom: 5px;
 }
-.experienceDiv .flexDiv {
+.jobDescDiv .flexDiv {
 	width: 100%;
 
 	display: flex;

@@ -1,6 +1,7 @@
 import { Container, Typography, Grow } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import CodingGraph from "./components/CodingGraph";
+import AboutMeBubble from "./components/AboutMeBubble";
 import LinkBlock from "./components/Linkblock";
 import ProjectTray from "./components/ProjectTray";
 import WorkExperienceBubble from "./components/WorkExperienceBubble";
@@ -19,7 +20,7 @@ export default function Homepage() {
 							<Typography variant="h1" component="h1">Thomas Campbell</Typography>
 						</Grow>
 						<Grow in={true} {... (true ? { timeout: 2000 } : {})} >
-							<Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Developer - Software Engineer - Homelab Enthusiast</Typography>
+							<Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Dev - Software Engineer - Homelab Enthusiast - Game Designer</Typography>
 						</Grow>
 					</div>
 					{ /* Display links to relevant social medias and websites of mine */}
@@ -29,7 +30,7 @@ export default function Homepage() {
 					<WorkExperienceBubble
 						fadeinTimeout='3000'
 					/>
-					<CodingGraph 
+					<AboutMeBubble 
 						fadeinTimeout='3500'
 					/>
 					<ProjectTray 
