@@ -20,7 +20,7 @@ export default function Homepage() {
 							<Typography variant="h1" component="h1">Thomas Campbell</Typography>
 						</Grow>
 						<Grow in={true} {... (true ? { timeout: 2000 } : {})} >
-							<Typography variant="subtitle1" component="p">DevOps Engineer - Full Stack Dev - Software Engineer - Homelab Enthusiast - Game Designer</Typography>
+							<Typography variant="subtitle1" component="p">DevSecOps Engineer - Full Stack Dev - Software Engineer - Homelab Enthusiast - Game Designer</Typography>
 						</Grow>
 					</div>
 					{ /* Display links to relevant social medias and websites of mine */}

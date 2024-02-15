@@ -42,7 +42,7 @@
     width: 45px;
     font-size: 45px;
 
-    transition: color 0.2s ease-out, transform 0.2s ease-in-out;
+    transition: color 0.2s ease-out, transform 0.5s cubic-bezier(0.4, 0, 0.26, 1.95);
 }
 .linkBlockWrapper .container a:link {
     text-decoration: none;
@@ -53,7 +53,7 @@
     color: #2c0e47;
 }
 .linkBlockWrapper .container a:hover {
-    transform: scale(1.6, 1.6);
+    transform: scale(1.5, 1.5);
     color: rgb(52, 41, 204);
 }
 
@@ -107,7 +107,7 @@
         width: 45px;
         font-size: 45px;
     
-        transition: color 0.2s ease-out, transform 0.2s ease-in-out;
+        transition: color 0.2s ease-out, transform 0.5s cubic-bezier(0.4, 0, 0.26, 1.95);
     }
     
     .linkBlockWrapper a:link, a:visited {
