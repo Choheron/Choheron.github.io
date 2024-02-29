@@ -23,9 +23,11 @@ export default function ContentCard(props) {
 						</div>
 					}
 					<div className="description">
-						<p>
-							<div dangerouslySetInnerHTML={{ __html: props.contentDescription }}/>
-						</p>
+            {props.contentDescription.length > 0 &&
+              <p>
+                <div dangerouslySetInnerHTML={{ __html: props.contentDescription }}/>
+              </p>
+            }
 						{props.bulletList.length > 0 &&
 							<ul>
 								{listItems}

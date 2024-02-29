@@ -27,26 +27,21 @@ export default function AboutMeBubble(props) {
 		<div className="body">
 			<Box className="masterContainer">
 				<Typography variant="h3" className="text">About Me</Typography>
-				<Grow
-					in={true}
-					{... (true ? { timeout: parseInt(props.fadeinTimeout) } : {})}
-				>
-					<Container className="graphContainer" ref={containerRef}>
-						<ContentCard
-							contentTitle=""
-							contentSubTitle=""
-							contentDescription={ aboutMeText }
-							bulletList={[]}
-						/>
-						<ContentCard
-							contentTitle=""
-							contentSubTitle="Skills:"
-							contentDescription={ skillsText }
-							bulletList={["CI/CD", "Agile", "IaC", "Automation", "Kubernetes", "Helm", "AWS", "Docker", "Containerization", "Full Stack Development",
-													 "Java","Python","Javascript","C","C++"]}
-						/>
-					</Container>
-				</Grow>
+        <Container className="graphContainer" ref={containerRef}>
+          <ContentCard
+            contentTitle=""
+            contentSubTitle=""
+            contentDescription={ aboutMeText }
+            bulletList={[]}
+          />
+          <ContentCard
+            contentTitle=""
+            contentSubTitle="Skills:"
+            contentDescription={ skillsText }
+            bulletList={["CI/CD", "Agile", "IaC", "Automation", "Kubernetes", "Helm", "AWS", "Docker", "Containerization", "Full Stack Development",
+                          "Java","Python","Javascript","C","C++"]}
+          />
+        </Container>
 			</Box>
 		</div>
 	)
