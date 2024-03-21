@@ -12,11 +12,11 @@ export default function AboutMeBubble(props) {
 		I am dedicated to creating functional and practical systems/content.
 		<br/><br/>
 		In my time as a DevOps Engineer, I have focused on Agile principles with an emphasis on pipeline creation and refactoring 
-		using Jenkins, Code Quality Gating with Sonarqube and Prismacloud, Kubernetes cluster administration and upkeep, as well
-		as extensive work with AWS including RDS, CFN, EKS, etc. 
+		using Jenkins, Code Quality Gating, Kubernetes administration and upkeep, as well as extensive work with AWS including RDS, CFN, EKS, etc. 
 		<br/><br/>
-		In my free time I keep busy maintaining a homelab, working on coding projects, woodworking, tending to my animals, and 
+		In my free time I keep busy maintaining a homelab, going climbing, working on coding projects, woodworking, tending to my animals, and 
 		playing games.
+    <br/><br/>
 	`
 
 	let skillsText = `
@@ -34,13 +34,27 @@ export default function AboutMeBubble(props) {
             contentDescription={ aboutMeText }
             bulletList={[]}
           />
-          <ContentCard
-            contentTitle=""
-            contentSubTitle="Skills:"
-            contentDescription={ skillsText }
-            bulletList={["CI/CD", "Agile", "IaC", "Automation", "Kubernetes", "Helm", "AWS", "Docker", "Containerization", "Full Stack Development",
-                          "Java","Python","Javascript","C","C++"]}
-          />
+          <div className="horizFlexDiv">
+            <ContentCard
+              contentTitle=""
+              contentSubTitle="Skills:"
+              contentDescription=""
+              bulletList={["CI/CD", "Agile", "IaC", "Automation", "Kubernetes", "Helm", "AWS", "Docker", "Containerization", "Full Stack Development",
+                            "Java","Python","Javascript","C","C++"]}
+            />
+            <ContentCard
+              contentTitle=""
+              contentSubTitle="Favorite Books:"
+              contentDescription=""
+              bulletList={["Dune", "Neuromancer", "Do Androids Dream of Electric Sheep", "The Pheonix Project", "To Kill a Mockingbird"]}
+            />
+            <ContentCard
+              contentTitle=""
+              contentSubTitle="Favorite Movies:"
+              contentDescription=""
+              bulletList={["Blade Runner (1982)", "Dune (Part 1)", "Dune (Part 2)", "Alien", "Interstellar", "Goodfellas", "The Secret World of Arrietty"]}
+            />
+          </div>
         </Container>
 			</Box>
 		</div>

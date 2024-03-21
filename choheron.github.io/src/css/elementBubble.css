@@ -61,6 +61,14 @@
 	padding-right: 1rem;
 }
 
+.horizFlexDiv {
+  width: 100%;
+
+	display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .jobDescDiv {
 	width: 100%;
 }
