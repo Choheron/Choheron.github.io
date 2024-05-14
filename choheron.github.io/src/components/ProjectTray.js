@@ -12,7 +12,7 @@ export default function ProjectTray(props) {
         <div className="graphContainer" ref={containerRef}>
           <div className="flexDiv">
             <p className="projectText"><a href="https://www.thiswebsitedoesnothing.com/"><u>thiswebsitedoesnothing.com</u></a></p>
-            <p className="projectText"><a href="http://trc-what-the-heck-is-that-site.s3.amazonaws.com/index.html"><u>What is that?</u></a></p>
+            <p className="projectText"><a href="http://trc-what-the-heck-is-that-site.s3-website-us-east-1.amazonaws.com/"><u>What is that?</u></a></p>
           </div>
         </div>
 			</Box>
