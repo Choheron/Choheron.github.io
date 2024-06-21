@@ -12,7 +12,7 @@ export default function JobCard(props) {
 					<h4><i>{ props.jobDuration }</i></h4>
 				</div>
 				<div className="subHeader">
-					<h4>{ props.company }</h4>
+					<h4>{ props.company }</h4><p><i>- { props.location }</i></p>
 				</div>
 				<div className="description">
 					<p>{ props.jobDescription }</p>

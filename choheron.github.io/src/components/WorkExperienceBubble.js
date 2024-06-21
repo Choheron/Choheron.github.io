@@ -15,6 +15,7 @@ export default function WorkExperienceBubble(props) {
             jobTitle="DevOps Engineer"
             jobDuration="December 2022 - Present"
             company="INADEV"
+            location="Remote, USA"
             jobDescription="Devops Engineer focusing on Governmental Contracts. Working with cutting edge technologies to facilitate proper CI/CD and Agile Design Principals. 
               Implements, Develops, and maintains CI/CD pipelines using Jenkins, Docker, and Kubernetes/Helm to automate the build, test, and deployment processes.
               Participates in daily stand-ups and on call rotations to swiftly address and resolve incidents with minimal downtime."
@@ -24,6 +25,7 @@ export default function WorkExperienceBubble(props) {
             jobTitle="Full Stack Dev/DevOps Intern"
             jobDuration="Jun 2022 - Dec 2022"
             company="INADEV"
+            location="McLean, VA"
             jobDescription="Deveoped a deduplication script using Python, utilizing libraries such as numpy and recordlinkage. Worked to optimize algorithms and adapt to changing project requirements. 
               Trained in DevOps to company standards in Terraform, AWS, Docker, Kubernetes, etc. to prepare for a transition to a full time DevOps Engineer."
             skillsList="DevOps, Terraform, AWS, Docker, Python, Data Engineering, REST APIs, Full Stack Web Development"
@@ -32,6 +34,7 @@ export default function WorkExperienceBubble(props) {
             jobTitle="Undergraduate Research Assistant"
             jobDuration="Nov 2021 - May 2022"
             company="GMU/Commonwealth Cyber Institute"
+            location="Fairfax, VA"
             jobDescription="Undergraduate position as a research assistant for the MVSF (Mason Vulnerability Scoring Framework) project at GMU doing 
               Full Stack Web Dev and assisting in writing and reviewing scientific papers for the project. Frontend build in ReactJS with the backend 
               dockerized running on Python and Flask."
