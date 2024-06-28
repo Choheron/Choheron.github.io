@@ -40,7 +40,7 @@ export default function AboutMeBubble(props) {
               contentSubTitle="Skills:"
               contentDescription=""
               bulletList={["CI/CD", "Agile", "IaC", "Automation", "Kubernetes", "Helm", "AWS", "Docker", "Containerization", "Full Stack Development",
-                            "Java","Python","Javascript","C","C++"]}
+                            "Java","Python","Javascript"]}
             />
             <ContentCard
               contentTitle=""

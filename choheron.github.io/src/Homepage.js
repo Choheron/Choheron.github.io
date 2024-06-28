@@ -6,6 +6,7 @@ import LinkBlock from "./components/Linkblock";
 import ProjectTray from "./components/ProjectTray";
 import WorkExperienceBubble from "./components/WorkExperienceBubble";
 import './css/homepage.css';
+import CertsTray from "./components/CertsTray";
 
 // 1.5s ease-in-out 1200ms infinite alternate none running upDown
 export default function Homepage() {
@@ -27,15 +28,22 @@ export default function Homepage() {
 					<LinkBlock />
 				</div>
 				<div className="pageBlock">
-					<WorkExperienceBubble
-						fadeinTimeout='3000'
-					/>
-					<AboutMeBubble 
-						fadeinTimeout='3500'
-					/>
-					<ProjectTray 
-						fadeinTimeout='4000'
-					/>
+          <div className="vertFlexDiv">
+            <WorkExperienceBubble
+              fadeinTimeout='3000'
+            />
+            <ProjectTray 
+              fadeinTimeout='4000'
+            />
+          </div>
+          <div className="vertFlexDiv">
+            <AboutMeBubble 
+              fadeinTimeout='3500'
+            />
+            <CertsTray 
+              fadeinTimeout='4000'
+            />
+          </div>
 				</div>
 				<br />
 			</div>

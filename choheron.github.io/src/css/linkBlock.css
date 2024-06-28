@@ -21,6 +21,7 @@
     background: inherit;
     overflow: hidden;
     margin: 50px;
+    margin-bottom: 30px;
 }
 
 .linkBlockWrapper .container:before {

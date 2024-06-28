@@ -18,14 +18,13 @@
 }
 .masterContainer .text {
 	text-align: center;
-}
-.masterContainer:hover {
-	transform: scale(1.02, 1.02) !important;
-}
-.masterContainer .text {
+
 	color: white;
 	font-family: "Bebas Neue";
 	margin-top: 1%;
+}
+.masterContainer:hover {
+	transform: scale(1.02, 1.02) !important;
 }
 
 .graphContainer {
@@ -43,6 +42,55 @@
 	font-family: "Slick";
 }
 
+/* TODO: Move these out of this CSS file and into its own CSS */
+.masterContainerCert {
+	margin-left: 2%;
+	margin-right: 2%;
+
+	margin-bottom: 1rem;
+}
+.masterContainerCert .text {
+	text-align: center;
+	color: white;
+	font-family: "Bebas Neue";
+	margin-top: 1%;
+}
+
+.graphContainerCert {
+	font-family: "Slick";
+	padding: 1%;
+	margin-top: 0.5%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.certFlexDiv {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.certFlexDiv a {
+  width: fit-content;
+}
+
+.certBadge {
+  width: 150px;
+  height: 150px;
+  /* Set some Image Margins */
+  padding: 1px;
+
+  /* Animation Settings */
+  transition: transform 2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.certBadge:hover {
+  transform: scale(1.02, 1.02) !important;
+}
+
+/* Typical flex div 'helper' styling */
 .flexDiv {
 	width: 100%;
 
