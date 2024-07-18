@@ -13,7 +13,7 @@ export default function ProjectTray(props) {
           <div className="flexDiv">
             <p className="projectText"><a href="https://www.thiswebsitedoesnothing.com/"><u>thiswebsitedoesnothing.com</u></a></p>
             <p className="projectText"><a href="http://trc-what-the-heck-is-that-site.s3-website-us-east-1.amazonaws.com/"><u>What is that?</u></a></p>
-            <p className="projectText"><a href="https://discordsite.nanophage.win/"><u>Discord Website</u></a></p>
+            <p className="projectText"><a href="https://discordsite.nanophage.win/"><u>Discord Website</u></a> &#40;Outage expected from 7/18 - 7/22 as I move apartments&#41;</p>
           </div>
         </div>
 			</Box>
