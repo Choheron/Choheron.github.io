@@ -11,9 +11,17 @@ export default function WorkExperienceBubble(props) {
 			<Box className="masterContainer">
 				<Typography variant="h3" className="text">Work Experience</Typography>
         <Container className="graphContainer" ref={containerRef}>
+        <JobCard
+            jobTitle="Site Reliability Developer"
+            jobDuration="December 2022 - Present"
+            company="Oracle"
+            location="Remote, USA"
+            jobDescription=""
+            skillsList="CI/CD, Agile, IaC, Terraform, Kuberenetes, OCI"
+          />
           <JobCard
             jobTitle="DevOps Engineer"
-            jobDuration="December 2022 - Present"
+            jobDuration="December 2022 - September 2024"
             company="INADEV"
             location="Remote, USA"
             jobDescription="Devops Engineer focusing on Governmental Contracts. Working with cutting edge technologies to facilitate proper CI/CD and Agile Design Principals. 
@@ -30,7 +38,7 @@ export default function WorkExperienceBubble(props) {
               Trained in DevOps to company standards in Terraform, AWS, Docker, Kubernetes, etc. to prepare for a transition to a full time DevOps Engineer."
             skillsList="DevOps, Terraform, AWS, Docker, Python, Data Engineering, REST APIs, Full Stack Web Development"
           />
-          <JobCard
+          {/* <JobCard
             jobTitle="Undergraduate Research Assistant"
             jobDuration="Nov 2021 - May 2022"
             company="GMU/Commonwealth Cyber Institute"
@@ -39,7 +47,7 @@ export default function WorkExperienceBubble(props) {
               Full Stack Web Dev and assisting in writing and reviewing scientific papers for the project. Frontend build in ReactJS with the backend 
               dockerized running on Python and Flask."
             skillsList="Full Stack Web Development, Python, Javascript, ReactJS, Flask, Docker"
-          />
+          /> */}
         </Container>
 			</Box>
 		</div>
