@@ -1,6 +1,5 @@
-import { Container, Typography, Grow } from "@mui/material";
-import React, { useState, useEffect } from "react";
-import CodingGraph from "./components/CodingGraph";
+import { Typography, Grow } from "@mui/material";
+import React from "react";
 import AboutMeBubble from "./components/AboutMeBubble";
 import LinkBlock from "./components/Linkblock";
 import ProjectTray from "./components/ProjectTray";

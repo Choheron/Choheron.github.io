@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Grow } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import JobCard from "./JobCard";
 import '../css/elementBubble.css';

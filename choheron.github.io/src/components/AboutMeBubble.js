@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Grow } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import ContentCard from "./ContentCard";
 import '../css/elementBubble.css';
@@ -17,10 +17,6 @@ export default function AboutMeBubble(props) {
 		In my free time I keep busy maintaining a homelab, climbing, coding, woodworking, tending to my animals, and 
 		playing games.
     <br/><br/>
-	`
-
-	let skillsText = `
-		
 	`
 
 	return (

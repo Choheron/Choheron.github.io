@@ -1,10 +1,5 @@
-import { Box, Container, Typography, Grow } from "@mui/material";
 import React from "react";
 import '../css/elementBubble.css';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 
 
