@@ -7,6 +7,7 @@ import ProjectTray from "./components/ProjectTray";
 import WorkExperienceBubble from "./components/WorkExperienceBubble";
 import './css/homepage.css';
 import CertsTray from "./components/CertsTray";
+import Snowfall from "react-snowfall";
 
 // 1.5s ease-in-out 1200ms infinite alternate none running upDown
 export default function Homepage() {
@@ -47,6 +48,13 @@ export default function Homepage() {
 				</div>
 				<br />
 			</div>
+      <Snowfall
+        style={{
+          position: 'fixed',
+          width: '100vw',
+          height: '100vh',
+        }}
+      />
 		</div>
 	);
 }
