@@ -15,7 +15,7 @@ export default function WorkExperienceBubble(props) {
             jobTitle="Site Reliability Developer"
             jobDuration="December 2022 - Present"
             company="Oracle"
-            location="Remote, USA"
+            location="Hybrid - Austin, TX"
             jobDescription=""
             skillsList="CI/CD, Agile, IaC, Terraform, Kuberenetes, OCI"
           />
