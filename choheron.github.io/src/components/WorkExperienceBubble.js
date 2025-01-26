@@ -13,7 +13,7 @@ export default function WorkExperienceBubble(props) {
         <Container className="graphContainer" ref={containerRef}>
         <JobCard
             jobTitle="Site Reliability Developer"
-            jobDuration="December 2022 - Present"
+            jobDuration="October 2024 - Present"
             company="Oracle"
             location="Hybrid - Austin, TX"
             jobDescription=""

@@ -1,8 +1,6 @@
 import React from "react";
 import '../css/elementBubble.css';
 
-
-
 export default function JobCard(props) {
 
 	return (
@@ -22,23 +20,4 @@ export default function JobCard(props) {
 			</div>
 		</div>
 	)
-
-  // WIP: Toggleable drop downs for job descriptions
-  // return (
-	// 	<Accordion className="body">
-  //     <AccordionSummary
-  //       className="header"
-  //       expandIcon={<ArrowDropDownIcon />}
-  //       id={ props.jobTitle + "-header" }
-  //     >
-  //       <h2>{ props.jobTitle }</h2>
-  //       <h4><i>{ props.jobDuration }</i></h4>
-  //     </AccordionSummary>
-  //     <AccordionDetails>
-  //       <h4>{ props.company }</h4><p><i>- { props.location }</i></p>
-  //       <p>{ props.jobDescription }</p>
-  //       <p><b>Skills:</b><i>{ props.skillsList }</i></p>
-  //     </AccordionDetails>
-	// 	</Accordion>
-	// )
 }
